@@ -2,6 +2,9 @@
 
 > A retrieval-augmented answer engine that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation.
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
+
 This is a clean-room reference implementation of the "never-fabricates" pattern
 I use in production. It runs on a tiny **public-domain** toy corpus with **zero
 API keys**, so you can read the technique end-to-end in one sitting.
@@ -178,3 +181,7 @@ the design-decision records (ADRs) with trade-offs — see
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+*Part of my AI‑platform work — see my other [pinned repositories](https://github.com/tsmith-surgexi) and the platform they support at [SurgeXi](https://surgexi.com).*
