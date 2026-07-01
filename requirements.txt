@@ -1,0 +1,11 @@
+# verified-rag runs on the Python standard library alone — the engine, the
+# TF-IDF retriever, the verification gate, and the deterministic synthesizer
+# have NO third-party runtime dependencies. `python -m verified_rag.demo` needs
+# nothing below.
+
+# Test suite:
+pytest>=7.4
+
+# Optional — only for the real-LLM synthesizer (VERIFIED_RAG_LLM=1). The
+# guarantee does not depend on it; the gate verifies LLM output the same way.
+# openai>=1.0
