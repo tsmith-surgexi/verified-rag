@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """CorpusStore — the authoritative, keyed index of chunks.
 
 This is the single source of truth the verification gate checks against. A

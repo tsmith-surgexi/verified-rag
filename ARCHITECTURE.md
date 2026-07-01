@@ -1,3 +1,4 @@
+<!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # Architecture & Case Study — Verified RAG
 
 > A reference write-up of a retrieval-augmented answer engine whose defining

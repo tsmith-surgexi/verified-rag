@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Retriever — light-dependency TF-IDF cosine retrieval.
 
 Retrieval is deliberately simple and self-contained (pure-Python TF-IDF, no

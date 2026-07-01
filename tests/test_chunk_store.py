@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Tests for chunking, content-addressing, and the store."""
 
 from verified_rag.chunk import Chunk, chunk_document, sha256_text

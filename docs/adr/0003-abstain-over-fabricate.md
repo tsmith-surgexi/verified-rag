@@ -1,3 +1,4 @@
+<!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # ADR 0003 — Abstain over fabricate; exact-substring matching
 
 - **Status:** Accepted

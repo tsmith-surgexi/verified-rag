@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """End-to-end tests: the engine never lets a fabricated citation out.
 
 The decisive test uses a deliberately dishonest synthesizer that emits an

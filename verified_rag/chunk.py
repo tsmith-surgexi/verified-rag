@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Chunk model + chunking + content-addressed hashing.
 
 A chunk is the unit of citation. Each one carries a stable citation *key*, its

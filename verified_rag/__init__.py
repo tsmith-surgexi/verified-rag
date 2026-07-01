@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """verified-rag — a retrieval-augmented answer engine that structurally cannot
 fabricate a citation.
 

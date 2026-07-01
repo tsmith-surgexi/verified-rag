@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """The verification gate — the whole point of this repo.
 
 A citation is a claim: "this key backs this quote." The gate treats every such

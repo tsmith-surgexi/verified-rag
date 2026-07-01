@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Synthesizers — pluggable, and untrusted by design.
 
 A synthesizer proposes an answer plus the citations it *claims* support it. It

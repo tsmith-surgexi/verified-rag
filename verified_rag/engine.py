@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """AnswerEngine — retrieve → synthesize → *verify every citation* → answer.
 
 The engine wires the pieces together and enforces the guarantee at the seam:

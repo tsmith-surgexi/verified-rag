@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Runnable demo: `python -m verified_rag.demo`.
 
 Shows the guarantee from both sides on a toy public-domain corpus:

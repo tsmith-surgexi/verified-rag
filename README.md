@@ -1,3 +1,4 @@
+<!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # 🔒 verified-rag
 
 > A retrieval-augmented answer engine that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation.
@@ -179,9 +180,6 @@ the design-decision records (ADRs) with trade-offs — see
 **[ARCHITECTURE.md](ARCHITECTURE.md)** and the [ADRs](docs/adr/).
 
 ## License
+© 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
+Source-available for evaluation only — see LICENSE.
 
-MIT — see [LICENSE](LICENSE).
-
----
-
-*Part of my AI‑platform work — see my other [pinned repositories](https://github.com/tsmith-surgexi) and the platform they support at [SurgeXi](https://surgexi.com).*

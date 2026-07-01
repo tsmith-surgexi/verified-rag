@@ -1,3 +1,4 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
 """Tests for the verification gate — the core guarantee.
 
 These prove, at the unit level, the three ways a citation can be dishonest and
