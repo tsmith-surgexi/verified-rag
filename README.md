@@ -3,7 +3,7 @@
 
 > A retrieval-augmented answer engine that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation.
 
-[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![license: source-available](https://img.shields.io/badge/license-source--available-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 
 This is a clean-room reference implementation of the "never-fabricates" pattern
