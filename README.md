@@ -3,6 +3,7 @@
 
 > A retrieval-augmented answer engine that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation.
 
+[![ci](https://github.com/tsmith-surgexi/verified-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/tsmith-surgexi/verified-rag/actions/workflows/ci.yml)
 [![license: source-available](https://img.shields.io/badge/license-source--available-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 
