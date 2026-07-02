@@ -13,6 +13,24 @@ API keys**, so you can read the technique end-to-end in one sitting.
 
 ---
 
+## See it run — real output, zero keys
+
+`python -m verified_rag.demo` runs against a small public-domain corpus with no API keys:
+
+```text
+(2) Un-groundable query -> HONEST abstention, no invented cite
+   Q: What is the airspeed velocity of an unladen swallow?
+   A: Not supported by the corpus.  [ABSTAINED - nothing verifiable]
+
+(3) Adversarial synthesizer -> it TRIES to emit an invented key and a
+   one-character-tampered quote. The gate drops both:
+   VERIFIED [policy-returns#c1]      - quote is verbatim (sha256=a3ccde9d...)
+   DROPPED  [supreme-court-9000#c1]  - unknown citation key, not in corpus
+   DROPPED  [policy-returns#c1]      - quoted text is not a verbatim substring (altered/invented)
+```
+
+The invented citation and the tampered quote are dropped **before release** — there is no code path that emits an unverified citation.
+
 ## The problem: LLMs invent citations, confidently
 
 In *Mata v. Avianca* (2023), a lawyer filed a brief citing judicial opinions
