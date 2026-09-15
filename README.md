@@ -1,15 +1,19 @@
 <!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # 🔒 verified-rag
 
-> A retrieval-augmented answer engine that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation.
+> Retrieval that **structurally cannot fabricate a citation.** Every citation it emits is verified against the source corpus — real key, verbatim quote — or the engine honestly abstains. There is no code path that returns an unverified citation. This is the verification technique behind SurgeXi's verified-knowledge work (Ma'at Codex).
 
 [![ci](https://github.com/tsmith-surgexi/verified-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/tsmith-surgexi/verified-rag/actions/workflows/ci.yml)
 [![license: source-available](https://img.shields.io/badge/license-source--available-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.12-blue.svg)](requirements.txt)
 
-This is a clean-room reference implementation of the "never-fabricates" pattern
-I use in production. It runs on a tiny **public-domain** toy corpus with **zero
-API keys**, so you can read the technique end-to-end in one sitting.
+**What this demonstrates.** The "never-fabricates" pattern — move trust out of the
+model entirely and put a verification gate in front of every citation: the cited key
+must resolve to a real stored chunk, and any quoted text must be a verbatim substring of
+it, or the whole answer abstains. This is a clean-room reference implementation of the
+approach I use in production. It runs on a tiny **public-domain** toy corpus with **zero
+API keys**, so you can read the technique end-to-end in one sitting — the runnable demo
+is right below.
 
 ---
 
